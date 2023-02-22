@@ -202,7 +202,7 @@ docker run -d -p 9000:9000 sonarqube:lts
 
 ## JFROG Artifactory installation in ubuntu 16.04 using docker container 
 
- - export JFROG_HOME= /set/some/path
+ - export JFROG_HOME= /var/etc
  - mkdir -p $JFROG_HOME/artifactory/var/etc/
  - cd $JFROG_HOME/artifactory/var/etc/
  - touch ./system.yaml
